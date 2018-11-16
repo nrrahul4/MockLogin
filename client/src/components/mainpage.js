@@ -11,7 +11,7 @@ class Homepage extends React.Component {
         return (
             <div style={{ textAlign: "center", paddingTop:"10px" }}>
                 <h1 style={{ fontSize: "20px", fontWeight: "bold" }}> Hi.. {this.state.data.name}</h1>
-                <p1>You're logged in with React & Basic HTTP Authentication!!</p1>
+                <p1>You are logged in with React & Basic HTTP Authentication!!</p1>
             </div>
         )
     }
